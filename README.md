@@ -23,3 +23,5 @@ Rscript MISAR-seq.R
 PS1: New version in ZENODO: https://doi.org/10.5281/zenodo.7480069
 
 PS2: All section1 section2 and E15_5-S1 data can download from Google Drive: https://drive.google.com/drive/folders/1xIUkhB-W2O3wHca0yfMaKAVXdVTBuf5N?usp=drive_link
+
+PS3: We added all images in full resolution already, please see https://github.com/jiangfuqing/MISAR-seq/Data/Full-image.
