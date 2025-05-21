@@ -193,7 +193,7 @@ proj <- IterativeLSI(
 matSVD <- dat@reductions$pca@cell.embeddings[,1:30]
 colnames(matSVD) <- gsub("PC_", "LSI", colnames(matSVD))
 rownames(matSVD) <- paste0(sampleId,"#",rownames(matSVD))
-matSVD <- matSVD[rownames(proj),]
+matSVD <- matSVD[rownames(proj@cellColData),]
 proj@reducedDims$LSI_RNA$matSVD <- matSVD
 
 # combine RNA and ATAC
